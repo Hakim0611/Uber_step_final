@@ -1,8 +1,8 @@
 * {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
-header{
+header {
 	position: relative;
 	height: 50px;
 }
@@ -14,7 +14,7 @@ nav {
 	height: 50px;
 	background-color: #212121;
 }
-.menu{
+.menu {
 	display: flex;
 	justify-content: space-between;
 	padding: 13px 70px;
@@ -22,18 +22,18 @@ nav {
 	list-style-type: none;
 }
 
-.menu .menu__link{
+.menu .menu__link {
 	font-size: 15px;
 	font-weight: 300;
 	color: #ffffff;
 }
-.menu .menu__item{
+.menu .menu__item {
 	border-right: 2px dotted black;
 	padding-right: 28px;
 }
 
-.menu .menu__item:last-child{
-	border-right:none;
+.menu .menu__item:last-child {
+	border-right: none;
 }
 
 .subheader {
@@ -43,12 +43,12 @@ nav {
 	height: 84px;
 	background-color: rgba(0, 0, 0, 0.6);
 }
-.subheader__logo{
+.subheader__logo {
 	display: block;
 	max-width: 100%;
 	margin-top: 16px;
 }
-.subheader__official{
+.subheader__official {
 	opacity: 0.5;
 	font-size: 13px;
 	font-weight: 100;
@@ -56,7 +56,7 @@ nav {
 	margin-top: 6px;
 }
 
-.subheader__call{
+.subheader__call {
 	margin-top: 19px;
 	font-size: 12px;
 	line-height: 14px;
@@ -65,7 +65,7 @@ nav {
 	text-align: right;
 }
 
-.subheader__phone{
+.subheader__phone {
 	display: block;
 	text-align: right;
 	margin-top: 8px;
@@ -76,28 +76,28 @@ nav {
 	line-height: 12px;
 }
 
-.subheader__btn{
+.subheader__btn {
 	margin-top: 19px;
 	width: 172px;
 	height: 46px;
-	background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+	background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
 	border: none;
 	border-radius: 4px;
-	box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.12);
+	box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.12);
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 0px rgba(0,0,0,0.21);
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 	color: #ffffff;
 }
 
-.promo{
+.promo {
 	min-height: 800px;
-	background: url('../img/bg/main_bg.jpg') center center / cover no-repeat;
+	background: url("../img/bg/main_bg.jpg") center center / cover no-repeat;
 	padding: 150px 0 135px 0;
 }
 
-.promo__header{
+.promo__header {
 	font-size: 60px;
 	font-weight: 900;
 	text-transform: uppercase;
@@ -107,7 +107,7 @@ nav {
 	text-align: center;
 }
 
-.promo__subheader{
+.promo__subheader {
 	font-size: 36px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -118,7 +118,7 @@ nav {
 	text-align: center;
 }
 
-.promo__descr{
+.promo__descr {
 	margin-top: 23px;
 	font-size: 18px;
 	line-height: 24px;
@@ -127,30 +127,29 @@ nav {
 	text-align: center;
 }
 
-.promo__btn{
+.promo__btn {
 	display: block;
 	margin: 118px auto 0 auto;
 	width: 259px;
 	height: 63px;
-	background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+	background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
 	border: none;
 	border-radius: 4px;
-	box-shadow: inset 0px -4px 0px 0px rgba(0,0,0,0.12);
+	box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.12);
 	font-size: 18px;
 	font-weight: 400;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
 	color: #ffffff;
 }
 
-.reasons{
+.reasons {
 	padding: 71px 0 65px 0;
 	min-height: 900px;
-	background:url('../img/bg/mobile_app.png') center center / cover no-repeat;
-
+	background: url("../img/bg/mobile_app.png") center center / cover no-repeat;
 }
 
-.label{
+.label {
 	margin: 0 auto;
 	width: 112px;
 	height: 24px;
@@ -162,7 +161,7 @@ nav {
 	color: #ffffff;
 	text-align: center;
 }
-.reasons .title{
+.reasons .title {
 	margin-bottom: 0;
 	font-size: 38px;
 	font-weight: 700;
@@ -172,7 +171,7 @@ nav {
 	margin-top: 38px;
 }
 
-.reasons__block{
+.reasons__block {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -187,10 +186,10 @@ nav {
 	width: 113px;
 	height: 113px;
 	background-color: #1eacc7;
-	border-radius:100%;
+	border-radius: 100%;
 }
 
-.reasons__descr{
+.reasons__descr {
 	width: 343px;
 }
 
@@ -199,9 +198,8 @@ nav {
 	line-height: 21px;
 	font-weight: 400;
 	color: #1eacc7;
-
 }
-.reasons__text{
+.reasons__text {
 	font-size: 15px;
 	font-weight: 300;
 	color: #202020;
